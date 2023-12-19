@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-19T20:16:33 IST" name="TestReportCreation" finished-at="2023-12-19T20:17:11 IST" duration-ms="38237">
+    <groups>
+    </groups>
+    <test started-at="2023-12-19T20:16:33 IST" name="run script" finished-at="2023-12-19T20:17:11 IST" duration-ms="38237">
+      <class name="com.bw.testcases.ScriptTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bw.testcases.ScriptTest@3b2cf7ab]" started-at="2023-12-19T20:16:33 IST" name="setUp" finished-at="2023-12-19T20:16:39 IST" duration-ms="5973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:com.bw.testcases.ScriptTest@3b2cf7ab]" started-at="2023-12-19T20:16:39 IST" name="loginTest" finished-at="2023-12-19T20:16:50 IST" duration-ms="10517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bw.testcases.ScriptTest@3b2cf7ab]" started-at="2023-12-19T20:16:50 IST" name="tearDown" finished-at="2023-12-19T20:16:50 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bw.testcases.ScriptTest@3b2cf7ab]" started-at="2023-12-19T20:16:50 IST" name="setUp" finished-at="2023-12-19T20:16:55 IST" duration-ms="4530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createPostTest()[pri:0, instance:com.bw.testcases.ScriptTest@3b2cf7ab]" started-at="2023-12-19T20:16:55 IST" name="createPostTest" finished-at="2023-12-19T20:17:11 IST" duration-ms="16744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPostTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bw.testcases.ScriptTest@3b2cf7ab]" started-at="2023-12-19T20:17:11 IST" name="tearDown" finished-at="2023-12-19T20:17:11 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bw.testcases.ScriptTest -->
+    </test> <!-- run script -->
+  </suite> <!-- TestReportCreation -->
+</testng-results>
