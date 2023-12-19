@@ -22,6 +22,7 @@ public class ScriptTest extends TestBase {
     }
     @Test
     public void loginTest(){
+
         cp = lp.login(prop.getProperty("username"),prop.getProperty("password"));
     }
 

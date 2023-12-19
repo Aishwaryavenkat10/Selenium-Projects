@@ -10,6 +10,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 
 public class TestBase {
 
@@ -19,7 +20,7 @@ public class TestBase {
     public TestBase(){
         try{
             prop = new Properties();
-            FileInputStream ip = new FileInputStream("C:/Users/admin/Documents/SeleniumProjects/Post/Betterworks/src/main/java/com/bw/qa/config/config.properties");
+            FileInputStream ip = new FileInputStream("C:/Users/admin/Documents/Selenium-Projects/Post/Betterworks/src/main/java/com/bw/qa/config/config.properties");
             prop.load(ip);
         }
         catch(FileNotFoundException e){
