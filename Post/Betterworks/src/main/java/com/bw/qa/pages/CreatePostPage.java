@@ -1,6 +1,7 @@
 package com.bw.qa.pages;
 
 import com.bw.qa.base.TestBase;
+import com.bw.qa.util.TestUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -20,10 +21,13 @@ public class CreatePostPage extends TestBase {
 
 
     public CreatePostPage(){
+
         PageFactory.initElements(driver,this);
     }
+    TestUtil tu = new TestUtil();
 
     public void clickOnCreateNewPostBtn(){
+
         createPostBtn.click();
     }
     public void selectPostOption(String option){
@@ -61,7 +65,8 @@ public class CreatePostPage extends TestBase {
         selectBtn.click();
     }
     public void createPost(String content){
-        textArea.sendKeys(content);
+//        textArea.sendKeys(content);
+        tu.doSendKeys(textArea,content);
         publishPostBtn.click();
 
     }

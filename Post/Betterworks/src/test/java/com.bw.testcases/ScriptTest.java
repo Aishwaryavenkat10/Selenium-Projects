@@ -21,13 +21,13 @@ public class ScriptTest extends TestBase {
         cp = new CreatePostPage();
     }
     @Test
-    public void loginTest(){
+    public void loginTest() throws InterruptedException {
 
-        cp = lp.login(prop.getProperty("username"),prop.getProperty("password"));
+        lp.login(prop.getProperty("username"),prop.getProperty("password"));
     }
 
     @Test
-    public void createPostTest(){
+    public void createPostTest() throws InterruptedException {
         loginTest();
         cp.clickOnCreateNewPostBtn();
         cp.selectPostOption("official");

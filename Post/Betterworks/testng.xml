@@ -1,0 +1,13 @@
+
+<suite name = "TestReportCreation" verbose="1">
+    <test name = "run script">
+        <classes>
+            <class name="com.bw.testcases.ScriptTest">
+                <methods parallel="methods">
+                    <include name="loginTest" />
+                    <include name="createPostTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,6 +1,7 @@
 package com.bw.qa.pages;
 
 import com.bw.qa.base.TestBase;
+import com.bw.qa.util.TestUtil;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -10,7 +11,7 @@ public class LoginPage extends TestBase {
     WebElement userName;
     @FindBy(xpath = "//button[@type='submit']")
     WebElement verificationBtn;
-    @FindBy(xpath = "//input[@id='inputGroupField']")
+    @FindBy(xpath = "//div[@class='form-group']//input")
     WebElement password;
     @FindBy(xpath = "//button[@type='submit']")
     WebElement loginBtn;
@@ -19,12 +20,17 @@ public class LoginPage extends TestBase {
         PageFactory.initElements(driver,this);
     }
 
-    public CreatePostPage login(String un, String pwd){
-        userName.sendKeys(un);
+    TestUtil test = new TestUtil();
+
+    public LoginPage login(String un, String pwd) throws InterruptedException {
+
+        test.doSendKeys(userName,un);
+        Thread.sleep(5000);
         verificationBtn.click();
-        password.sendKeys(pwd);
+        Thread.sleep(5000);
+        test.doSendKeys(password,pwd);
         loginBtn.click();
-        return new CreatePostPage();
+        return new LoginPage();
     }
 
 }
