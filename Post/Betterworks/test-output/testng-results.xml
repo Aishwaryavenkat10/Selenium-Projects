@@ -1,65 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-20T15:26:57 IST" name="TestReportCreation" finished-at="2023-12-20T15:28:05 IST" duration-ms="68267">
+  <suite started-at="2023-12-20T16:13:41 IST" name="TestReportCreation" finished-at="2023-12-20T16:14:15 IST" duration-ms="33982">
     <groups>
     </groups>
-    <test started-at="2023-12-20T15:26:57 IST" name="run script" finished-at="2023-12-20T15:27:32 IST" duration-ms="35168">
+    <test started-at="2023-12-20T16:13:41 IST" name="run script" finished-at="2023-12-20T16:14:15 IST" duration-ms="33982">
       <class name="com.bw.testcases.ScriptTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bw.testcases.ScriptTest@6295d394]" started-at="2023-12-20T15:26:57 IST" name="setUp" finished-at="2023-12-20T15:27:02 IST" duration-ms="5403" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bw.testcases.ScriptTest@b62fe6d]" started-at="2023-12-20T16:13:41 IST" name="setUp" finished-at="2023-12-20T16:13:46 IST" duration-ms="4993" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createPostTest()[pri:0, instance:com.bw.testcases.ScriptTest@6295d394]" started-at="2023-12-20T15:27:02 IST" name="createPostTest" finished-at="2023-12-20T15:27:17 IST" duration-ms="14738" status="PASS">
+        <test-method signature="createPostTest()[pri:0, instance:com.bw.testcases.ScriptTest@b62fe6d]" started-at="2023-12-20T16:13:46 IST" name="createPostTest" finished-at="2023-12-20T16:14:01 IST" duration-ms="14517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPostTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bw.testcases.ScriptTest@6295d394]" started-at="2023-12-20T15:27:17 IST" name="tearDown" finished-at="2023-12-20T15:27:17 IST" duration-ms="195" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bw.testcases.ScriptTest@b62fe6d]" started-at="2023-12-20T16:14:01 IST" name="tearDown" finished-at="2023-12-20T16:14:01 IST" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bw.testcases.ScriptTest@6295d394]" started-at="2023-12-20T15:27:17 IST" name="setUp" finished-at="2023-12-20T15:27:21 IST" duration-ms="4230" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bw.testcases.ScriptTest@b62fe6d]" started-at="2023-12-20T16:14:01 IST" name="setUp" finished-at="2023-12-20T16:14:05 IST" duration-ms="3692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:0, instance:com.bw.testcases.ScriptTest@6295d394]" started-at="2023-12-20T15:27:21 IST" name="loginTest" finished-at="2023-12-20T15:27:32 IST" duration-ms="10369" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.bw.testcases.ScriptTest@b62fe6d]" started-at="2023-12-20T16:14:05 IST" name="loginTest" finished-at="2023-12-20T16:14:15 IST" duration-ms="10343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bw.testcases.ScriptTest@6295d394]" started-at="2023-12-20T15:27:32 IST" name="tearDown" finished-at="2023-12-20T15:27:32 IST" duration-ms="187" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bw.testcases.ScriptTest@b62fe6d]" started-at="2023-12-20T16:14:15 IST" name="tearDown" finished-at="2023-12-20T16:14:15 IST" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.bw.testcases.ScriptTest -->
     </test> <!-- run script -->
-    <test started-at="2023-12-20T15:27:32 IST" name="RetryMultipleFailedTestCases" finished-at="2023-12-20T15:28:05 IST" duration-ms="33053">
-      <class name="com.bw.testcases.ScriptTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bw.testcases.ScriptTest@61dd025]" started-at="2023-12-20T15:27:32 IST" name="setUp" finished-at="2023-12-20T15:27:36 IST" duration-ms="3832" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="createPostTest()[pri:0, instance:com.bw.testcases.ScriptTest@61dd025]" started-at="2023-12-20T15:27:36 IST" name="createPostTest" finished-at="2023-12-20T15:27:51 IST" duration-ms="14765" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createPostTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bw.testcases.ScriptTest@61dd025]" started-at="2023-12-20T15:27:51 IST" name="tearDown" finished-at="2023-12-20T15:27:51 IST" duration-ms="169" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bw.testcases.ScriptTest@61dd025]" started-at="2023-12-20T15:27:51 IST" name="setUp" finished-at="2023-12-20T15:27:55 IST" duration-ms="3826" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:0, instance:com.bw.testcases.ScriptTest@61dd025]" started-at="2023-12-20T15:27:55 IST" name="loginTest" finished-at="2023-12-20T15:28:05 IST" duration-ms="10339" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bw.testcases.ScriptTest@61dd025]" started-at="2023-12-20T15:28:05 IST" name="tearDown" finished-at="2023-12-20T15:28:05 IST" duration-ms="118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.bw.testcases.ScriptTest -->
-    </test> <!-- RetryMultipleFailedTestCases -->
   </suite> <!-- TestReportCreation -->
 </testng-results>
