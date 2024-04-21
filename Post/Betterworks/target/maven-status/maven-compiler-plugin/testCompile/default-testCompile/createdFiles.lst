@@ -1,1 +1,2 @@
-com\bw\testcases\ScriptTest.class
+com\bw\qa\basetest\BaseTest.class
+com\bw\qa\testcases\ScriptTest.class

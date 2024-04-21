@@ -1,35 +1,39 @@
 package com.bw.qa.pages;
 
-import com.bw.qa.base.TestBase;
-import com.bw.qa.util.TestUtil;
+import com.bw.qa.constants.AppConstants;
+import com.bw.qa.util.ElementUtil;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.WebDriver;
 
-public class CreatePostPage extends TestBase {
-    @FindBy(xpath = "//button[@id='create-button']")
-    WebElement createPostBtn;
-    @FindBy(xpath = "//span[@class='Select-arrow']")
-    WebElement dropdownBtn;
-    @FindBy(xpath = "//div/button[text()='Select']")
-    WebElement selectBtn;
-    @FindBy(xpath = "//div[@class='form-group']/textarea")
-    WebElement textArea;
-    @FindBy(xpath = "//button[text()='Publish post']")
-    WebElement publishPostBtn;
+public class CreatePostPage {
+    private WebDriver driver;
+    private ElementUtil elementUtil;
+
+    private By createPostBtn = By.xpath("//button[@id='create-button']");
+
+    private By dropdownBtn =By.xpath("//span[@class='Select-arrow']");
+    private By selectBtn =By.xpath("//div/button[text()='Select']");
+    private By textArea =By.xpath("//div[@class='form-group']/textarea");
+    private By publishPostBtn =By.xpath("//button[text()='Publish post']");
+    private By logo = By.xpath("//img[@class='hyphenMonster']");
 
 
-    public CreatePostPage(){
+    public CreatePostPage(WebDriver driver){
 
-        PageFactory.initElements(driver,this);
+        this.driver = driver;
+        elementUtil = new ElementUtil(this.driver);
     }
-    TestUtil tu = new TestUtil();
 
+    public Boolean checkLogoExist(){
+        return elementUtil.waitForVisibilityOfElement(logo, AppConstants.POLLING_DEFAULT_WAIT).isDisplayed();
+    }
+    @Step("Clicking on create post button")
     public void clickOnCreateNewPostBtn(){
 
-        createPostBtn.click();
+          elementUtil.waitForVisibilityOfElement(createPostBtn,AppConstants.SHORT_DEFAULT_WAIT).click();
     }
+    @Step("Selecting the post option")
     public void selectPostOption(String option){
 
         if (option.toLowerCase() == "anonymous"){
@@ -41,11 +45,10 @@ public class CreatePostPage extends TestBase {
         else if (option.toLowerCase() == "named"){
             option = "Named";
         }
-
-        WebElement optionElement =  driver.findElement(By.xpath("//span[text()='"+option+"']/parent::label//input"));
-        optionElement.click();
+        By optionElement  =By.xpath("//span[text()='"+option+"']/parent::label//input");
+        elementUtil.waitForVisibilityOfElement(optionElement,AppConstants.SHORT_DEFAULT_WAIT).click();
     }
-
+    @Step("Selecting the post type")
     public void selectPostType(String type){
         if(type.toLowerCase() == "open"){
             type = "OPEN";
@@ -54,20 +57,22 @@ public class CreatePostPage extends TestBase {
             type = "MULTIPLE CHOICE";
         }
 
-        WebElement typeElement = driver.findElement(By.xpath("//div/button[text()='"+type+"']"));
-        typeElement.click();
+        By typeElement = By.xpath("//div/button[text()='"+type+"']");
+        elementUtil.waitForVisibilityOfElement(typeElement,AppConstants.SHORT_DEFAULT_WAIT).click();
     }
-
+    @Step("Selecting the group")
     public void selectGroup(String group){
-        dropdownBtn.click();
-        WebElement groupType = driver.findElement(By.xpath("//div[@class='Select-menu-outer']/div/div/div[text()='"+group+"']"));
-        groupType.click();
-        selectBtn.click();
+
+        elementUtil.doClick(dropdownBtn);
+        By groupType = By.xpath("//div[@class='Select-menu-outer']/div/div/div[text()='"+group+"']");
+        elementUtil.doClick(groupType);
+        elementUtil.doClick(selectBtn);
+
     }
+    @Step("creating the post")
     public void createPost(String content){
-//        textArea.sendKeys(content);
-        tu.doSendKeys(textArea,content);
-        publishPostBtn.click();
+        elementUtil.waitForVisibilityOfElement(textArea,AppConstants.SHORT_DEFAULT_WAIT).sendKeys(content);
+        elementUtil.doClick(publishPostBtn);
 
     }
 

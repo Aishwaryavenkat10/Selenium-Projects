@@ -6,32 +6,32 @@
     <groups>
     </groups>
     <test name="run script" duration-ms="37123" started-at="2023-12-21T07:29:42Z" finished-at="2023-12-21T07:30:19Z">
-      <class name="com.bw.testcases.ScriptTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bw.testcases.ScriptTest@48140564]" name="setUp" is-config="true" duration-ms="5240" started-at="2023-12-21T12:59:42Z" finished-at="2023-12-21T12:59:48Z">
+      <class name="com.bw.qa.testcases.ScriptTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bw.qa.testcases.ScriptTest@48140564]" name="setUp" is-config="true" duration-ms="5240" started-at="2023-12-21T12:59:42Z" finished-at="2023-12-21T12:59:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createPostTest()[pri:0, instance:com.bw.testcases.ScriptTest@48140564]" name="createPostTest" duration-ms="15253" started-at="2023-12-21T12:59:48Z" finished-at="2023-12-21T13:00:03Z">
+        <test-method status="PASS" signature="createPostTest()[pri:0, instance:com.bw.qa.testcases.ScriptTest@48140564]" name="createPostTest" duration-ms="15253" started-at="2023-12-21T12:59:48Z" finished-at="2023-12-21T13:00:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPostTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bw.testcases.ScriptTest@48140564]" name="tearDown" is-config="true" duration-ms="692" started-at="2023-12-21T13:00:03Z" finished-at="2023-12-21T13:00:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bw.qa.testcases.ScriptTest@48140564]" name="tearDown" is-config="true" duration-ms="692" started-at="2023-12-21T13:00:03Z" finished-at="2023-12-21T13:00:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bw.testcases.ScriptTest@48140564]" name="setUp" is-config="true" duration-ms="4664" started-at="2023-12-21T13:00:03Z" finished-at="2023-12-21T13:00:08Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bw.qa.testcases.ScriptTest@48140564]" name="setUp" is-config="true" duration-ms="4664" started-at="2023-12-21T13:00:03Z" finished-at="2023-12-21T13:00:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.bw.testcases.ScriptTest@48140564]" name="loginTest" duration-ms="10569" started-at="2023-12-21T13:00:08Z" finished-at="2023-12-21T13:00:19Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.bw.qa.testcases.ScriptTest@48140564]" name="loginTest" duration-ms="10569" started-at="2023-12-21T13:00:08Z" finished-at="2023-12-21T13:00:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bw.testcases.ScriptTest@48140564]" name="tearDown" is-config="true" duration-ms="673" started-at="2023-12-21T13:00:19Z" finished-at="2023-12-21T13:00:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bw.qa.testcases.ScriptTest@48140564]" name="tearDown" is-config="true" duration-ms="673" started-at="2023-12-21T13:00:19Z" finished-at="2023-12-21T13:00:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.bw.testcases.ScriptTest -->
+      </class> <!-- com.bw.qa.testcases.ScriptTest -->
     </test> <!-- run script -->
   </suite> <!-- TestReportCreation -->
 </testng-results>

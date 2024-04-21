@@ -1,36 +1,40 @@
 package com.bw.qa.pages;
 
-import com.bw.qa.base.TestBase;
-import com.bw.qa.util.TestUtil;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import com.bw.qa.constants.AppConstants;
+import com.bw.qa.util.ElementUtil;
+import io.qameta.allure.Step;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 
-public class LoginPage extends TestBase {
-    @FindBy(xpath = "//input[@type='email']")
-    WebElement userName;
-    @FindBy(xpath = "//button[@type='submit']")
-    WebElement verificationBtn;
-    @FindBy(xpath = "//div[@class='form-group']//input")
-    WebElement password;
-    @FindBy(xpath = "//button[@type='submit']")
-    WebElement loginBtn;
+public class LoginPage  {
+    private WebDriver driver;
+    private ElementUtil elementUtil;
 
-    public LoginPage(){
-        PageFactory.initElements(driver,this);
+    private By userName = By.xpath("//input[@type='email']");
+    private By verificationBtn = By.xpath("//button[@type='submit']");
+    private By password = By.xpath("//div[@class='form-group']//input");
+
+    private By loginBtn = By.xpath("//button[@type='submit']");
+
+
+    public LoginPage(WebDriver driver){
+
+        this.driver = driver;
+        elementUtil = new ElementUtil(this.driver);
     }
 
-    TestUtil test = new TestUtil();
+    @Step("Doing Login with username is :{0} and password {1} ")
+    public CreatePostPage login(String un, String pwd) {
 
-    public LoginPage login(String un, String pwd) throws InterruptedException {
+        elementUtil.waitForVisibilityOfElement(userName, AppConstants.SHORT_DEFAULT_WAIT).sendKeys(un);
+//        elementUtil.doClick(verificationBtn);
+        elementUtil.waitForVisibilityOfElement(verificationBtn,AppConstants.MEDIUM_DEFAULT_WAIT).click();
+//        elementUtil.doSendKeys(password,pwd);
+        elementUtil.waitForVisibilityOfElement(password,AppConstants.SHORT_DEFAULT_WAIT).sendKeys(pwd);
+//        elementUtil.doClick(loginBtn);
+        elementUtil.waitForVisibilityOfElement(loginBtn,AppConstants.SHORT_DEFAULT_WAIT).click();
+        return new CreatePostPage(driver);
 
-        test.doSendKeys(userName,un);
-        Thread.sleep(5000);
-        verificationBtn.click();
-        Thread.sleep(5000);
-        test.doSendKeys(password,pwd);
-        loginBtn.click();
-        return new LoginPage();
     }
 
 }
