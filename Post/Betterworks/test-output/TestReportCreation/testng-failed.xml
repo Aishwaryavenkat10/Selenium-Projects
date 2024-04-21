@@ -6,13 +6,13 @@
   </listeners>
   <test name="run script(failed)">
     <classes>
-      <class name="com.bw.testcases.ScriptTest">
+      <class name="com.bw.qa.testcases.ScriptTest">
         <methods>
           <include name="createPostTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.bw.testcases.ScriptTest -->
+      </class> <!-- com.bw.qa.testcases.ScriptTest -->
     </classes>
   </test> <!-- run script(failed) -->
 </suite> <!-- Failed suite [TestReportCreation] -->
