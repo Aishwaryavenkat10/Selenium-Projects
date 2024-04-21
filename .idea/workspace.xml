@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7226418-0eac-45f0-b15f-7cd25a6012d8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Post/Betterworks/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Post/Betterworks/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -18,13 +25,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2XnTqEeukvA6q1qK16NTy7PLBvM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,10 +41,26 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/admin/Documents/Selenium-Projects/Post/Betterworks/Testreport.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/admin/Documents/Selenium-Projects/Post/Betterworks/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ScriptTest.createPostTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ScriptTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ScriptTest.loginTest.executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/.m2/repository/com/beust/jcommander/1.82&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.1150748&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Documents\Selenium-Projects\Post\Betterworks\src\main\java\com\bw\qa" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/admin/Documents/Selenium-Projects/Post/Betterworks/testng.xml">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="My_Projects" />
       <method v="2">
@@ -52,6 +74,148 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/admin/Documents/Selenium-Projects/Post/Betterworks/Testreport.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Betterworks" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Post/Betterworks/Testreport.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/admin/Documents/Selenium-Projects/Post/Betterworks/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Betterworks" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bw.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Post/Betterworks/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="C:\Users\admin\Documents\Selenium-Projects\Post\Betterworks\test-output" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/admin/Documents/Selenium-Projects/Post/Betterworks/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Betterworks" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Post/Betterworks/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/admin/Documents/Selenium-Projects/Post/Betterworks/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Betterworks" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bw.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Post/Betterworks/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="C:\Users\admin\Documents\Selenium-Projects\Post\Betterworks\test-output" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScriptTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Betterworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bw.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bw.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.bw.testcases.ScriptTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScriptTest.createPostTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Betterworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bw.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bw.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.bw.testcases.ScriptTest" />
+      <option name="METHOD_NAME" value="createPostTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScriptTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Betterworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bw.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bw.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.bw.testcases.ScriptTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/admin/Documents/Selenium-Projects/Post/Betterworks/testng.xml" />
+        <item itemvalue="TestNG.ScriptTest" />
+        <item itemvalue="TestNG.ScriptTest.loginTest" />
+        <item itemvalue="TestNG.C:/Users/admin/Documents/Selenium-Projects/Post/Betterworks/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/admin/Documents/Selenium-Projects/Post/Betterworks/testng.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_392-corretto-1.8.0_392-249ae16d76d6-ec8bc16d" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-249ae16d76d6-a618e4d4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
