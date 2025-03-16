@@ -1,0 +1,20 @@
+SCRUM:
+-Agile FW
+-Team members solve complex problems,createm some more features,deliver the product in a best possible way within the time frame and in     creative way.
+
+features of scrum:
+-Light weight
+-simple to understand
+-difficult to master
+
+DIFFERENT ACTIVITIES OF SCRUM:         SCRUM TEAM:
+-scrum team				SM(scrum master)
+-daily scrum meeting			PO
+-sprint					DEV/QA TEAM
+-product backlog
+-sprint backlog
+-sprint planning meeting
+-sprint review meeting
+-sprint rectrospectivr meeting
+-refinement meeting
+
